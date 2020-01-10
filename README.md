@@ -17,7 +17,9 @@ Pre-trained model ``BERT-Base, Uncased`` from [bert](https://github.com/google-r
 ### Generate pre-train data
 Raw data: [Extra Data - Citation Network Graph](https://github.com/itsmystyle/AI-CUP-2019-Abstract-Labeling-and-Classification-Tutorial/tree/master/Citation%20Network%20Data#extra-data---citation-network-graph)    
 Preprocess script:     
-``python data_preprocess.py``    
+
+    python data_preprocess.py
+    
 Generate script:
     
     python create_pretraining_data.py \
