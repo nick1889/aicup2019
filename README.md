@@ -1,13 +1,15 @@
 # aicup2019
 AI CUP 2019 Abstract Classification
 
+use [bert](https://arxiv.org/abs/1810.04805) from [google-research-bert](https://github.com/google-research/bert).    
+
 ### Requirements
-``tensorflow``    
-``pandas``    
-``numpy``    
-`sklearn`    
-`spacy`    
-`tqdm`
+* tensorflow    
+* pandas  
+* numpy    
+* sklearn    
+* spacy    
+* tqdm
 
 ### Download pre-trained model
 Pre-trained model ``BERT-Base, Uncased`` from [bert](https://github.com/google-research/bert).    
@@ -91,6 +93,4 @@ Generate script:
     --vocab_file=uncased_L-12_H-768_A-12/vocab.txt
 
 ### Ensemble
-view ``ensemble.ipynb``
-    
-
+view [ensemble.ipynb](https://github.com/nick1889/aicup2019/blob/master/ensemble.ipynb)
